@@ -6,7 +6,8 @@ import csv
 import logging
 from datetime import datetime
 
-from keboola.component.base import ComponentBase, UserException
+from keboola.component.base import ComponentBase
+from keboola.component.exceptions import UserException
 
 # configuration variables
 KEY_API_TOKEN = '#api_token'
